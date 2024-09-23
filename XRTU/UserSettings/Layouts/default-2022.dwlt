@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 129
+  controlID: 111
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 49
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 39
+  controlID: 40
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -323,9 +323,9 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
-    - Assets/Samples/XR Hands/1.4.3/HandVisualizer/Materials
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -333,16 +333,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Samples/XR Hands/1.4.3/HandVisualizer/Materials
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\medisc\Desktop\Practice_XRI_24\XRTU
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ee7d0000
-    m_LastClickedID: 32238
-    m_ExpandedIDs: 000000004c75000000770000087700003c7700003e77000040770000087e00000c7e000000ca9a3bffffff7f
+    m_SelectedIDs: 068c0000
+    m_LastClickedID: 35846
+    m_ExpandedIDs: 000000008c7800008e780000907800009278000094780000967800004a7a0000967a0000987a00009a7a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -370,7 +370,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004c750000
+    m_ExpandedIDs: 000000008c7800008e78000090780000927800009478000096780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -398,7 +398,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000c6850000
+    m_ExpandedInstanceIDs: c6230000c6850000588200006c820000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -414,7 +414,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -514,21 +514,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4275fdffca97fdff8cdffdffe6dffdffe40efeffb44ffeffc04ffeff6e19ffff8c19ffffaa19ffffb619ffff3c54ffff5e67ffff1a7affff9af7ffffa6f7ffff3ef8ffff1cfbffff06d400002cd4000040ed000050ed0000
+      m_ExpandedIDs: 3ec8ffff8ec8ffff3efaffff28fbffffb0730000be730000da730000f47300000074000008740000107400001a740000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: HandVisualiser
-        m_OriginalName: HandVisualiser
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 60692
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -947,9 +947,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.2701924, y: -1.0813208, z: 0.9122577}
+    m_Target: {x: 19.185087, y: -9.849609, z: 2.8260489}
     speed: 2
-    m_Value: {x: 1.2701924, y: -1.0813208, z: 0.9122577}
+    m_Value: {x: 19.185087, y: -9.849609, z: 2.8260489}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -995,13 +995,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.24787392, y: -0.04880648, z: 0.01250111, w: -0.96748334}
+    m_Target: {x: -0.18801422, y: -0.6275619, z: 0.1597803, w: -0.73844326}
     speed: 2
-    m_Value: {x: -0.24787344, y: -0.048806388, z: 0.012501086, w: -0.9674815}
+    m_Value: {x: -0.18777327, y: -0.6286653, z: 0.16006123, w: -0.73749685}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 12.124355
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 12.124354
   m_Ortho:
     m_Target: 0
     speed: 2
